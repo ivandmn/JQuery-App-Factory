@@ -1,0 +1,131 @@
+  body, html {
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      height: 100%;
+  }
+  body{
+    background-color: #DCDCDC;
+  }
+
+  #topMenuUL{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topMenuList{
+    float: left;
+  }
+  
+  .buttonTopMenu{
+    display: block;
+    border: none;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #logoFabrica{
+        display: block;
+        border: none;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+  }
+  
+  li button:hover {
+    background-color: #111;
+  }
+  
+  #logout{
+      display: none;
+  }
+  
+  #loginfieldset{
+      display: none;
+  }
+
+  #machines{
+    display: none;
+  }
+  
+  #settings{
+    display: none;
+  }
+
+  #settingsTables{
+    display: none;
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+
+  #orderTables{
+    display: none;
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+
+
+  .ulContainered{
+    padding: 0;
+    display:inline-block;
+    height: 115px;
+    width: 100px;
+    background-color:rgb(177, 177, 177);
+  }
+
+  .ulOrdersContainered{
+    padding: 0;
+    display:inline-block;
+    height: 250px;
+    width: 350px;
+    background-color:rgb(177, 177, 177);
+  }
+
+  #homepagemessage{
+      padding-top: 20px;
+      padding-left:20px;
+      text-align: center;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  .settingsLiMachines{
+    border: 1px solid black;
+    padding: 4px;
+  }
+  
+  .ordersLi{
+    border: 1px solid black;
+    padding: 4px;
+  }
+
+  #infoOrder{
+    display: block;
+    position: absolute;
+    left: 500px;
+    top: 220px;
+    z-index: 15;
+  }
+  span{
+    display: block;
+  }
+  
+  h4{
+    margin-top: 0px;
+    margin-bottom: 7px;
+  }

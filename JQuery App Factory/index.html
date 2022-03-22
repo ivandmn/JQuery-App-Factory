@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta hhtp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica JQuery</title>
+    <script src="JQuery/jquery/jquery-3.6.0.js"></script>
+    <script src="JQuery/jquery-ui-1.13.0.custom/jquery-ui.min.js"></script>
+    <script src="JQuery/jquery-cookie/jquery.cookie.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/orders.js"></script> 
+    <script src="JS/machines.js"></script>  
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="JQuery/jquery-ui-1.13.0.custom/jquery-ui.min.css">
+</head>
+<body>
+    <div id="topnavbar">
+        <ul id ="topMenuUL">
+            <li class = "topMenuList" id="logoFabrica">AppFactory</li>
+            <li class = "topMenuList"><button class="buttonTopMenu" id="home">Home</button></li>
+            <li class = "topMenuList"><button class="buttonTopMenu" id="machines">Machines</button></li>
+            <li class = "topMenuList"><button class="buttonTopMenu" id="settings">Settings</button></li>
+            <li class = "topMenuList"><button class="buttonTopMenu" id="login">Login</button></li>
+            <li class = "topMenuList"><button class="buttonTopMenu" id="logout">Logout</button></li>
+        </ul>
+    </div>
+    <h2 id="homepagemessage">Home Page</h2>
+    <fieldset id ="loginfieldset">
+        <legend>Login Users</legend>
+        <form>
+            Username: <input name= "username" id="username" type="text" placeholder="Type your name"></input>
+            <br>
+            Password: <input name= "password" id="password" type="text" placeholder="Type your password"></input>
+        </form>
+        <button type="submit" id= "submitlogin">Login</button>
+        <br>
+        <div id ="loginmessage"></div>
+    </fieldset>
+    <div id = "settingsTables">
+        <h1>Machine Settings</h1>
+        <h3>Type Pieces</h3>
+        <ul class="ulContainered" id="typePiecesTable">
+        </ul>
+        <h3>Machine 1</h3><ul class="ulContainered" id = "machine1Table">
+        </ul>
+        <h3>Machine 2</h3>
+        <ul class="ulContainered" id ="machine2Table"></ul>
+    </div>
+
+    <div id = "orderTables">
+        <h1>Product Order Page</h1>
+        <h3>Orders</h3>
+        <ul class="ulOrdersContainered" id="MachinesTable">
+        </ul>
+        <h3>Machine 1</h3><ul class="ulOrdersContainered" id = "machine1ordersTable">
+        </ul>
+        <h3>Machine 2</h3>
+        <ul class="ulOrdersContainered" id ="machine2ordersTable"></ul>
+    </div>
+</body>
+</html>
